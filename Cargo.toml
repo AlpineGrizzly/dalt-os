@@ -1,0 +1,13 @@
+[package]
+name = "dalt-os"
+version = "0.1.0"
+edition = "2018"
+authors = ["r3v"]
+
+[dependencies]
+
+[profile.dev]
+panic = "abort"
+
+[prfile.release]
+panic = "abort"
