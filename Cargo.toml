@@ -5,9 +5,7 @@ edition = "2018"
 authors = ["r3v"]
 
 [dependencies]
-
-[profile.dev]
-panic = "abort"
+bootloader = "0.9"
 
 [prfile.release]
 panic = "abort"
