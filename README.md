@@ -25,3 +25,8 @@ Booting image using QEMU
 '''
 target/x86_64-dalt_os/debug/bootimage-dalt-os.bin
 '''
+
+Writing image to usb
+```
+dd if=target/x86_64-blog_os/debug/bootimage-blog_os.bin of=/dev/sdX && sync
+```
